@@ -1,0 +1,6 @@
+#8-1:
+	Initially, yes, the runner generally resumes where they left off, although to me it looks like there is a frame skipped when pausing and unpausing.  I also noticed that you can initiate a jump while paused and it will start the runner at the top of the jump when unpauseing.  After commenting out the pause behavior for the jump, the runner no longer resumes where they left off.  When unpaused and the runner is on the way up, the jump gets cancelled and they fall back to the ground from whatever height they made it to.  While when unpausing on the way down, the runner seems to teleport to the ground .
+
+
+#8-3:
+	Yes that is the case (the jump takes twice as long to do).  I always find it interesting, and fun, how distance and time variables can influence each other.  In this case effectively changing the speed of the runner; high time and high height appear fast, while high time and low height appear slow, and so on.  I've been playing around with these kinds of interactions a lot in the 3D Unity class.
